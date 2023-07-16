@@ -1,6 +1,7 @@
 salary = float(input("Please enter your salary (before CPF) > "))
-cpf = salary * 0.17
-print("Your CPF is ", str(cpf))
+cpf = salary * 0.20
+cpftotal= cpf + (salary*0.17) # given by employer/organization
+print("Your CPF is ", str(cpftotal))
 remaining = salary - cpf
 chiRemaining = 0
 race = input("Please enter your race : ")
